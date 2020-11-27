@@ -75,7 +75,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-    color: seashell;
+    color: gray;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -85,7 +85,7 @@ a:active {
 .tea-month {
     text-align: center;
 }
-.service-items {
+.services {
     width: 100%;
     display:inline-flex;
     align-items: center;
@@ -95,7 +95,7 @@ a:active {
 
 }
 
-.service-items p {
+.services__description {
     height: 10em;
     width:14em;
     margin-top: 30px;
@@ -103,7 +103,7 @@ a:active {
     color: black;
 
 }
-.service-items img {
+.services__image {
     height: 10em;
     width: 14em;
     margin-bottom: 10px;
@@ -111,8 +111,12 @@ a:active {
 
 }
 
-figcaption {
+.services__title {
     text-align: center;
+    color: black
+}
+
+.services__link {
     color: black
 }
 
@@ -135,20 +139,20 @@ figcaption {
 .sections {
     text-align: center;
 }
-.news-items {
+.news {
     padding: 5%;
     background-color: white;
 }
 
 
-.news-items h3 {
+.news__title {
     
     text-align: justify;
     color: black;
 
 }
 
-.news-items p {
+.news__description {
     height: 10em;
     width:14em;
     margin-top: 5px;
@@ -156,7 +160,7 @@ figcaption {
     color: black;
 
 }
-.news-items img {
+.news img {
     height: 10em;
     width: 14em;
     margin-bottom: 10px;
@@ -207,7 +211,8 @@ figcaption {
     text-align: center;
 }
 
-footer a {
+.contact-info__link {
     margin-left:20px;
-    text-align: left;
+    padding-top: 30px;
+    text-align: center;
 }
